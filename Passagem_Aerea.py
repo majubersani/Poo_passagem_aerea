@@ -91,3 +91,4 @@ passagem2.apresentar()
 passagem2.set_bagagem(True)
 passagem2.set_checkin(True)
 passagem2.set_status("Confirmado")
+
