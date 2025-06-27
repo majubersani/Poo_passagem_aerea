@@ -81,12 +81,12 @@ class PassagemAerea(Passagem):
         if status else "Check-in cancelado")
 
 
-passagem1 = PassagemAerea("Carlos Silva", 35, "12345", "Rio de Janeiro", "São Paulo", "2025-06-15", "Econômica", "Confirmado", "R$ 500,00")
+passagem1 = PassagemAerea("Maria Júlia", 17, "12345", "Rio de Janeiro", "São Paulo", "2025-06-15", "Econômica", "Confirmado", "R$ 500,00")
 passagem1.apresentar()
 passagem1.set_bagagem(True)
 passagem1.set_checkin(True)
 print("-" * 40)
-passagem2 = PassagemAerea("Ana Souza", 28, "67890", "São Paulo", "Paris", "2025-07-20", "Primeira Classe", "Pendente", "R$ 3000,00")
+passagem2 = PassagemAerea("Lorena", 20, "67890", "São Paulo", "Paris", "2025-07-20", "Primeira Classe", "Pendente", "R$ 3000,00")
 passagem2.apresentar()
 passagem2.set_bagagem(True)
 passagem2.set_checkin(True)
